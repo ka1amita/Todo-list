@@ -3,7 +3,6 @@
     border-radius: 50%;
  }
 .done {
- /* text-decoration: line-through; */
  opacity: 0.5;
 
  }
@@ -48,8 +47,7 @@ img {
 }
 
 div.todoContainer {
-    /* margin-top: 0; */
-    /* margin-bottom: 0; */
+
 display: flex;  
 justify-content:center;  
 align-items: center;
@@ -60,13 +58,11 @@ padding-bottom: 5px;
 p {
     background-color: aqua;
     width: 140px;
-    /* height: 20px; */
+
     text-align: left;
     margin-top: 0px;
     margin-bottom: 0px;
-    /* padding-left: 10px; */
-    /* margin-left: 10px; */
-    /* flex-wrap: wrap; */
+
     overflow-wrap:break-word ;
     min-height: 20px;
 
