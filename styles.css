@@ -26,11 +26,12 @@ h1 {
 
 .addTodo {
     border-radius: 0;
-    border: solid grey;
+    border: solid grey 1px;
 }
 
 input.addTodo {
     border-right: 0;
+    width: 138px;
 }
 
 button.addTodo {
@@ -59,12 +60,14 @@ padding-bottom: 5px;
 p {
     background-color: aqua;
     width: 140px;
-    height: 20px;
+    /* height: 20px; */
     text-align: left;
     margin-top: 0px;
     margin-bottom: 0px;
     /* padding-left: 10px; */
     /* margin-left: 10px; */
     /* flex-wrap: wrap; */
+    overflow-wrap:break-word ;
+    min-height: 20px;
 
 }
