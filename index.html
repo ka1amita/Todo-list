@@ -10,18 +10,21 @@
 </head>
 
 <body>
-    <h1>My Simple Todo list</h1>
-    <h2>Todos</h2>
-        <ul>
-            <li class="todoItem" id="todo0">Buy milk</li>
+    <div class="listContainer">
+    <h1>Todos</h1>
 
-        </ul>
-        <input type="text" placeholder="enter todo">
-        <button class="addTodo">Add todo</button>
+    <input class="addTodo" type="text" placeholder="enter todo"><button class="addTodo">Add</button>
 
+        <div class="todosContainer">
+            <div class='todoContainer' >
+                <p class="todoItem" >Buy milk</p>
+                <img class='toDelete' src="https://cdn4.iconfinder.com/data/icons/eon-ecommerce-i-1/32/trashcan_delete_remove-1024.png" alt="bin">
+                <img class='toDone' src="https://cdn4.iconfinder.com/data/icons/web-essentials-6/24/checkmark-1024.png" alt="tick">
+            </div>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+              <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="./scripts.js"></script>
-</body>
+    </div>
+    </body>
 
 </html>

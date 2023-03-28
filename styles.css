@@ -1,3 +1,70 @@
+.toDoDone {
+    background-color: pink;
+    border-radius: 50%;
+ }
 .done {
-text-decoration: line-through;
+ /* text-decoration: line-through; */
+ opacity: 0.5;
+
+ }
+
+body {
+    background-color: teal;
+}
+
+
+div.listContainer {
+    width: 200px;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.addTodo {
+    border-radius: 0;
+    border: solid grey;
+}
+
+input.addTodo {
+    border-right: 0;
+}
+
+button.addTodo {
+    background-color: pink;
+    border-left: 0;
+    color: white;
+    width: 40px;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+    background-color: blueviolet;
+}
+
+div.todoContainer {
+    /* margin-top: 0; */
+    /* margin-bottom: 0; */
+display: flex;  
+justify-content:center;  
+align-items: center;
+padding-top: 5px;
+padding-bottom: 5px;  
+}
+
+p {
+    background-color: aqua;
+    width: 140px;
+    height: 20px;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* padding-left: 10px; */
+    /* margin-left: 10px; */
+    /* flex-wrap: wrap; */
+
 }
