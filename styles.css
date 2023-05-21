@@ -21,6 +21,7 @@ div.listContainer {
 
 h1 {
     text-transform: uppercase;
+    margin: 0;
 }
 
 .addTodo {
@@ -31,6 +32,8 @@ h1 {
 input.addTodo {
     border-right: 0;
     width: 138px;
+    margin: 5px 0;
+    
 }
 
 button.addTodo {
